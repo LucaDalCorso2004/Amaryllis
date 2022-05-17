@@ -1,3 +1,9 @@
+:root{
+    --firstColor: white;
+    --secondColor: Black;
+    --thirdColor: Red;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +14,6 @@
     box-sizing: border-box;
     background: transparent;
     font-family: 'Oswald', sans-serif;
-    font-family: 'PT Serif', serif;
   }
   
   html {
@@ -27,7 +32,7 @@
     display: flex;
     flex-direction: row;
     width: 15%;
-    background-color: red;
+    background-color: var(--thirdColor);
     align-items: center;
     padding-left: 3rem;
 }
@@ -42,7 +47,7 @@ color: white;
     flex-direction: row;
     justify-content: left;
     align-items: center;
-    background-color: red;
+    background-color: var(--thirdColor);
     position: sticky;
     top: 0;
     width: 85%;
@@ -62,17 +67,16 @@ color: white;
   
   .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: var(--firstColor);
     padding: 8px 25px;
     transition: all 0.5s ease;
     border-radius: 8px;
-    font-family: 'Oswald', sans-serif;
   }
   
   .navbar ul li a:hover {
-    background-color: white;
-    color: black;
-    box-shadow: 0 0 50px red;
+    background-color: var(--firstColor);
+    color: var(--secondColor);
+    box-shadow: 0 0 50px var(--secondColor);
   }
 
   /* Home */
@@ -80,10 +84,10 @@ color: white;
 #home {
     display: flex;
     flex-direction: column;
-    height: 88%;
+    height: 91.5%;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: var(--firstColor);
   }
   
   #home::before {
@@ -112,14 +116,13 @@ color: white;
     font-size: 5rem;
     text-align: center;
     margin: 40px 0px;
-    font-family: 'Oswald', sans-serif;
   }
   
   .btn {
     padding: 10px 35px;
     background-color: transparent;
-    border: 1px solid white;
-    color: white;
+    border: 1px solid var(--firstColor);
+    color: var(--firstColor);
     outline: none;
     transition: 0.6s ease;
     border-radius: 8px;
@@ -128,48 +131,16 @@ color: white;
   
   .btn:hover {
     cursor: pointer;
-    background-color: white;
-    color: black;
+    background-color: var(--firstColor);
+    color: var(--secondColor);
     box-shadow: 0 0 50px blue;
     font-weight: bold;
   }
 
-  #home-text{
-    background-color: rgba(0, 0, 0, 0.9);
-    color: white;
-    height: 60%;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    font-family: 'PT Serif', serif;
-  }
-
-  .was-ist-formel-1{
-      display: flex;
-      flex-direction: column;
-      width: 70%;
-      padding: 3rem;
-  }
-
-  .was-ist-formel-1-img{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    padding: 3rem;
-    padding-top: 7rem;
-}
-
-.was-ist-formel-1-img img{
-height: 100%;
-width: 70%;
-}
-
-
-
   /*footer*/
 
 footer {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: var(--secondColor)/*rgba(0, 0, 0, 0.9)*/;
   }
   
   .footer-area {
@@ -178,7 +149,6 @@ footer {
     box-sizing: border-box;
     align-items: center;
     margin-top: 0rem;
-    
   }
   
   .socials {
@@ -286,7 +256,6 @@ footer {
   }
   
   .footer-text {
-    font-family: 'Oswald', sans-serif;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -295,5 +264,4 @@ footer {
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 1.5rem;
-    
   }
