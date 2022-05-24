@@ -31,10 +31,10 @@
 .logo{
     display: flex;
     flex-direction: row;
-    width: 15%;
+   
     background-color: var(--thirdColor);
     align-items: center;
-    padding-left: 3rem;
+    
 }
 
 .logo img{
@@ -50,7 +50,7 @@ color: white;
     background-color: var(--thirdColor);
     position: sticky;
     top: 0;
-    width: 85%;
+    
     z-index: 1;
   }
   
@@ -61,7 +61,7 @@ color: white;
   }
   
   .navbar ul li {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
   
@@ -264,4 +264,22 @@ footer {
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 1.5rem;
+  }
+  .animtation
+  {
+
+width: 100px;
+height: 100px;
+position: relative;
+animation-name: race;
+animation-duration: 5s;
+
+  }
+  @keyframes race {
+      from {
+        right: 0%;
+      }
+      to{
+          right: 100%;
+      }
   }
