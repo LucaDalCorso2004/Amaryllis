@@ -90,7 +90,7 @@ color: white;
     position: absolute;
     top: 0;
     right: 0;
-    background: url("images/20509438.jpg") no-repeat center
+    background: url("images/homeimg.png") no-repeat center
       center/cover;
     height: 100%;
     width: 100%;
@@ -143,7 +143,7 @@ color: white;
       font-size: 1.1rem;
   }
 
-.was-ist-formel-1-img{
+/*.was-ist-formel-1-img{
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -156,7 +156,7 @@ color: white;
   margin-left: 4rem;
   height: 110%;
   width: 65%;
-}
+}*/
 
   /*footer*/
 
@@ -290,3 +290,25 @@ footer {
     font-size: 1.5rem;
     
   }
+
+  .animtation
+  {
+    margin: 0 0 0 105rem;
+
+width: 100px;
+height: 100px;
+position: relative;
+animation-name: race;
+animation-duration: 5s;
+
+
+  }
+  @keyframes race {
+      from {
+        right: 0%;
+      }
+      to{
+          right: 110%;
+      }
+  }
+  
