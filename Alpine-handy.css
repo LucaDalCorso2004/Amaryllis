@@ -117,3 +117,418 @@
         
       }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 426px)  {
+
+  .logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    padding-top: 1rem;
+}
+
+.logo img{
+width: 3rem;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 5px 0px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: .3rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    padding: 4px 12px;
+    transition: all .8s ease;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+  }
+
+  #home::before {
+    content: "";
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  
+  .header {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10px 0px;
+    padding-top: 20rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .header-2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #home-text{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    margin-top: 28%;
+    font-family: 'PT Serif', serif;
+    text-align: justify;
+  }
+
+.was-ist-formel-1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+      font-size: .9rem;
+  }
+
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+    
+  }
+
+  .animtation
+  {
+    margin: 0 0 0 76%;
+
+width: 100px;
+height: 100px;
+position: relative;
+animation-name: race;
+animation-duration: 3s;
+
+
+  }
+  @keyframes race {
+      from {
+        right: 0%;
+      }
+      to{
+          right: 100%;
+      }
+  }
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 769px)  {
+
+  .logo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0rem;
+    padding-top: 1rem;
+}
+
+.logo img{
+width: 3rem;
+}
+.navigation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 5px 0px;
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: .3rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    padding: 4px 12px;
+    transition: all .8s ease;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    color: white;
+  }
+
+  #home::before {
+    content: "";
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  
+  .header {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 10px 0px;
+    padding-top: 20rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .header-2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #home-text{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    margin-top: 20%;
+    font-family: 'PT Serif', serif;
+    text-align: justify;
+  }
+
+.was-ist-formel-1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+      font-size: .9rem;
+  }
+
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+    
+  }
+
+  .animtation
+  {
+    margin: 0 0 0 76%;
+
+width: 100px;
+height: 100px;
+position: relative;
+animation-name: race;
+animation-duration: 3s;
+
+
+  }
+  @keyframes race {
+      from {
+        right: 0%;
+      }
+      to{
+          right: 100%;
+      }
+  }
+}
+
+@media only screen and (max-width: 1440px) and (min-width: 1025px)  {
+
+  .logo{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    align-items: center;
+    padding-left: 3rem;
+
+}
+
+.logo img{
+width: 5rem;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 6.2rem;
+  }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  width: 85%;
+  z-index: 1;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 5px 0px;
+    text-align: center;
+  }
+  
+  .navbar ul li {
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    padding: 4px 12px;
+    transition: all .8s ease;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #home::before {
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.9;
+  }
+  
+  .header {
+    font-size: 5rem;
+    text-align: center;
+    margin: 10px 0px;
+    padding-top: 20rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .header-2{
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #home-text{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+    margin-top: 0%;
+    font-family: 'PT Serif', serif;
+    text-align: justify;
+  }
+
+.was-ist-formel-1{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+      font-size: 1.3rem;
+  }
+
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    text-align: center;
+    
+  }
+
+  .animtation
+  {
+    margin: 0 0 0 76%;
+
+width: 100px;
+height: 100px;
+position: relative;
+animation-name: race;
+animation-duration: 3s;
+
+
+  }
+  @keyframes race {
+      from {
+        right: 0%;
+      }
+      to{
+          right: 100%;
+      }
+  }
+}
