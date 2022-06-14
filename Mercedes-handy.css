@@ -1,0 +1,109 @@
+@media only screen and (max-width: 426px)
+{
+
+
+    .logo{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-left: 1rem;
+    }
+    
+    .logo img{
+    width: 3rem;
+    color: white;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        width: 100%;
+        height: 300px;
+      }
+      
+      .navbar ul {
+        list-style: none;
+        margin: 5px 0px;
+        display: block;
+        text-align: center;
+      }
+      
+      .navbar ul li {
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: .3rem;
+      }
+      
+      .navbar ul li a {
+        text-decoration: none;
+        padding: 4px 12px;
+        transition: all .8s ease;
+        border-radius: 4px;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      #home::before {
+        content: "";
+        position: absolute;
+        top: 240px;
+        left: 0px;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.9;
+      }
+      
+      .header {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 10px 0px;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      .header-2{
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 10px;
+        font-family: 'Oswald', sans-serif;
+      }
+
+      #home-text{
+        background-color: rgba(0, 0, 0, 0.9);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 109%;
+        font-family: 'PT Serif', serif;
+        text-align: justify;
+      }
+    
+    .was-ist-formel-1{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          padding: 1rem;
+          font-size: .9rem;
+      }
+    
+
+    .footer-text {
+        font-family: 'Oswald', sans-serif;
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+        text-align: center;
+        
+      }
+}
