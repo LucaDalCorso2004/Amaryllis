@@ -6,9 +6,9 @@ Im Lernatelier an der BBB hatten wir den Auftrag eine Internetseite mit CSS und 
 
 # Ziele:
 
-1.Der Leser soll verstehen, wie einfache Animation mit html und css funktioniert.
-2.Der Leser kann in diesem Beitrag das Resultat von so einer Animation sehen.
-3.Der Leser sieht auf den Code und kann ihn selbst verwenden.
+* 1.Der Leser soll verstehen, wie einfache Animation mit html und css funktioniert.
+* 2.Der Leser kann in diesem Beitrag das Resultat von so einer Animation sehen.
+* 3.Der Leser sieht auf den Code und kann ihn selbst verwenden.
 # Inhalt 1
 
 [![description](http://img.youtube.com/vi/MtC5P71g8kQ/0.jpg)](https://youtu.be/cd76VYliZr8)
@@ -44,20 +44,20 @@ animation-duration: 5s;
   ```HTML
    <img class="animtation" src="images/Ferrari.png" alt="" />
   ```
-### Reflektion Thema
+# Reflektion Thema
 
-# Was haben wir gelernt: 
+### Was haben wir gelernt: 
 Wir haben gelernt, wie man Animationen in CSS erstellen kann und so seine Website verschönern kann.
 
-# Was waren Schwierigkeiten: 
+### Was waren Schwierigkeiten: 
 Mit den Animationen an sich hatten wir keine Probleme, allerdings hatten wir Probleme mit den Animationen beim Responsive Design, denn das Auto, welches wir bewegen wollten, war nicht auf dem Bildschirm sichtbar. Schlussendlich konnten wir aber auch dieses Problem beheben.
 
-# Was ist gut gelaufen: 
+### Was ist gut gelaufen: 
 Es fiel uns leicht, uns das Thema CSS-Animationen anzueignen, da es auf YouTube sehr viele Tutorials zum Thema Animationen in CSS gibt.
 
 Ein Beispiel zu so einem Video ist folgendes: https://www.youtube.com/watch?v=YszONjKpgg4
 
-# Reflektion Gruppenarbeit
+### Reflektion Gruppenarbeit
 
 Wir haben in der Gruppe gut zusammengearbeitet und haben uns die verschieden Arbeitspakete aufgeteilt. Schlussendlich konnten wir alle Ziele, bis auf die die aufgrund des JavaScript-Verbot eingeschränkt wurden, erreichen und sind zum gewünschten Ergebnis gekommen.
 
