@@ -62,3 +62,14 @@ Ein Beispiel zu so einem Video ist folgendes: https://www.youtube.com/watch?v=Ys
 Wir haben in der Gruppe gut zusammengearbeitet und haben uns die verschieden Arbeitspakete aufgeteilt. Schlussendlich konnten wir alle Ziele, bis auf die die aufgrund des JavaScript-Verbot eingeschränkt wurden, erreichen und sind zum gewünschten Ergebnis gekommen.
 
 Für nächstes Mal könnten wir allerdings noch die Synchronisation auf GitHub verbessern. Es kam nämlich häufig dazu, dass neue Ordner im Projekt selber erstellt wurden und das Projekt gar nicht geupdatet wurde.
+
+# Verifikation
+
+### Ziel 1 (Im Text enthalten): 
+Wir haben das Ziel erreicht, weil wir das Portfolio einer anderen Person gezeigt haben und sie jetzt weiss, wie einfache Animationen funktionieren
+
+### Ziel 2 (Im Video enthalten): 
+Wir haben das Ziel erreicht, weil wir das Portfolio einer anderen Person gezeigt haben und sie jetzt weiss, wie eine fertige Animation aussieht.
+
+### Ziel 3 (Im Bild enthalten): 
+Wir haben das Ziel erreicht, weil wir das Portfolio einer anderen Person gezeigt haben und sie jetzt weiss, wie der Code für eine Animation aussieht.
